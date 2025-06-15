@@ -165,21 +165,13 @@ def get_vectorstore(categoria: str, subcategoria: str, path: Path) -> FAISS:
     return vectorstore
 
 prompt_template = """
-Você é um assistente especializado em crédito consignado para servidores públicos.
-Contexto atual: {categoria} > {subcategoria}
-Baseado nos documentos abaixo, responda:
-
-Documentos relevantes:
-{context}
-
-Pergunta: {question}
-Responda de forma clara e específica ao contexto:"""
+"""
 
 prompt = ChatPromptTemplate.from_template(prompt_template)
 
 def oraculo_konsi():
     print("\n" + "="*50)
-    print(" ORÁCULO KONSI - CRÉDITO CONSIGNADO")
+    print(" ORÁCULO ")
     print("="*50)
     print("Dica: Para melhores resultados, inclua:")
     print("- Sigla do estado (AL, BA, SP) ou nome completo")
