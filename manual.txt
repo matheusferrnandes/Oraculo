@@ -1,16 +1,1 @@
-======== Template de Consulta - Kora ======== 
-
-{Convênio} {Estado} {Banco}: {Consulta}
-
-Parâmetros válidos:
-▶ Convênios: ["GOV","PREFEITURA","TRIBUNAIS"]  
-▶ Estados: Siglas (AL,SP) ou nomes completos
-▶ Consultas: ["taxas","limite","requisitos","prazos","portabilidade","refin"]
-
-Exemplo funcional:
-"GOV BA no Daycoval: qual prazo utilizavel?"
-
-Dica: tente se atentar as informações dos documentos que estão na pasta "docs",   
-para ter uma melhor experiencia. 
-
 
